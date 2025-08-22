@@ -25,4 +25,4 @@ jobs:
        run: |
          echo "SHA number is ${{github.sha}}"
          echo "Reference is ${{github.ref}}"
-         echo "Github action ${{github.action}}
+        #  echo "Github action ${{github.action}}
