@@ -1,16 +1,12 @@
 name: contexts
-on:
+on: push
 env:
   name: "dev"
   project: "bayer"
   location: "Bangalore"
   Manager: "Balaji"
-  
-  push:
-    branches:
-      - dev
-      - main
 
+  
 
     
 jobs:
