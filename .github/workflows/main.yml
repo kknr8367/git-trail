@@ -10,10 +10,6 @@ env:
 
     
 jobs:
-  env:
-    job: "job1"
-  build:
-    runs-on: ubuntu-latest
     steps:
      - name: print
        run: |
@@ -27,6 +23,8 @@ jobs:
         #  echo "Github action path are ${{github.action_path}}"
         #  echo "env is ${{github.env}}"
         #  echo "github api url ${{github.actor_id}}"
+       env:
+    job: "job1"
                   
   # task:
   #   runs-on: ubuntu-latest
