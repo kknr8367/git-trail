@@ -1,0 +1,18 @@
+name: contexts
+on:
+  push:
+    branches:
+      - dev
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: print
+       run: |
+         echo "Actor is ${{github.actor}}"
+         echo "Event name is ${{github.event_name}}"
+         echo "Runner is ${{github.run_id}}"
+         
