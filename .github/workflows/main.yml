@@ -17,7 +17,7 @@ jobs:
          echo "Tocken is ${{github.token}}"
          echo "Objects are ${{github.object}}"
          echo "Github action path are ${{github.action_path}}"
-         echo "action is ${{github.action_run}}"
+         echo "env is ${{github.env}}"
          echo "github api url ${{github.actor_id}}"
                   
   # task:
